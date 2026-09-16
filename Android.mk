@@ -312,7 +312,7 @@ endif
 
 ifeq (1,$(strip $(shell expr $(PLATFORM_SDK_VERSION) \>= 28)))
 LOCAL_SHARED_LIBRARIES += \
-    libsync_vendor
+    libsync
 endif
 
 ifeq ($(TARGET_RK_GRALLOC_VERSION),4)
